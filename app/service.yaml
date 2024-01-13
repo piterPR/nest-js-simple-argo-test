@@ -1,8 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx
-  namespace: argo-nginx
+  name: argo-nginx
   labels:
     app: nginx
 spec:
